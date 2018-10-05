@@ -24,6 +24,18 @@ Or for short `npm i && npm start` :)
 Once you've done that, installing [metamask](https://metamask.io/) will allow you to create escrow contracts on
 your own local node or a public testnet like Rinkeby or Kovan.
 
+### Choosing your Ethereum Network
+
+When you've opened up Metamask you can choose which Ethereum Network you want to connect to.
+
+If you have ether on any of the testnets you can use those. The easiest option would be to
+install [ganache-cli](https://github.com/trufflesuite/ganache-cli) by running
+`npm install -g ganache-cli`.
+
+Once you have ganache-cli, you can simply run `ganache-cli` that runs on port 8545 by default.  
+You can connect to this network with metamask and import one of the accounts with ether
+that ganache-cli displays in the console when you run it.
+
 ## Truffle and the Escrow Contract
 
 You'll notice at the top level there's a Truffle folder, inside this folder will be
